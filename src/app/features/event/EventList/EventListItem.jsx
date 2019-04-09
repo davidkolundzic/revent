@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Segment, Item, Icon, List, Button } from 'semantic-ui-react';
 import EventListAttendee from './EventListAttendee';
-import EventDashboard from './../EventDashboard/EventDashboard';
 
 class EventListItem extends Component {
  
@@ -16,7 +15,7 @@ class EventListItem extends Component {
                           <Item.Content>
                             <Item.Header as="a">{event.title}</Item.Header>
                             <Item.Description>
-                              Hosted by <a>{event.hostedBy}</a>
+                              Hosted by <a href=" ">{event.hostedBy}</a>
                             </Item.Description>
                           </Item.Content>
                         </Item>
